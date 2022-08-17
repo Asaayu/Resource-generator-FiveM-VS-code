@@ -32,28 +32,14 @@ function deactivate() {}
 var InputData = {
 	resourceName : {
 		title : "Resource name",
-		placeholder : "B_Jobs, Phone, esx_garage, ...",
+		placeholder : "",
 		nextInput : "description",
-		value : "",
+		value : "asaayu_",
 		input : null
 	},
 	description : {
 		title : "Resource description",
-		placeholder : "This resource is ...",
-		nextInput : "author",
-		value : "",
-		input : null
-	},
-	author : {
-		title : "Resource author",
-		placeholder : "Bentozox, ...",
-		nextInput : "version",
-		value : "",
-		input : null
-	},
-	version : {
-		title : "Resource version",
-		placeholder : "1.0.0, ...",
+		placeholder : "",
 		nextInput : "",
 		value : "",
 		input : null

@@ -1,8 +1,8 @@
 {
-	"publisher": "ResourceGeneratorFiveM",
-	"name": "resource-generator-fivem",
-	"displayName": "Resource Generator FiveM",
-	"description": "This extension help you creating a new basic lua resource for FiveM",
+	"publisher": "ResourceGeneratorFiveMAsaayu",
+	"name": "resource-generator-fivem-asaayu",
+	"displayName": "Resource Generator FiveM (Custom)",
+	"description": "This extension creates a new resource for FiveM",
 	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.59.0"
@@ -45,10 +45,10 @@
 				"title": "Generate FiveM resource"
 			}
 		],
-    "menus": {
-				"explorer/context": [{
-						"when": "explorerResourceIsFolder",
-						"command": "resource-generator-fivem.generate-resource"
+		"menus": {
+			"explorer/context": [{
+				"when": "explorerResourceIsFolder",
+				"command": "resource-generator-fivem.generate-resource"
 			}]
 		}
 	},
